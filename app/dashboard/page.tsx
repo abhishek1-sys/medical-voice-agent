@@ -5,6 +5,7 @@ import { useUser } from '@clerk/nextjs';
 import Link from 'next/link';
 import { Activity, FileText, Clock, CheckCircle, Plus, TrendingUp, Calendar, ArrowRight, ChevronRight } from 'lucide-react';
 
+
 interface Session {
   id: string;
   patientName: string | null;
@@ -218,6 +219,7 @@ export default function DashboardPage() {
           </div>
         </div>
       </div>
+      
     </div>
   );
 }
